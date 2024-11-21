@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/KamsEHome/static/css/main.133f79db.css",
+    "main.js": "/KamsEHome/static/js/main.c8d38be1.js",
+    "static/js/453.96cba20d.chunk.js": "/KamsEHome/static/js/453.96cba20d.chunk.js",
+    "static/media/dogview.jpg": "/KamsEHome/static/media/dogview.045c8f9adf50435f86f8.jpg",
+    "static/media/Author.jpg": "/KamsEHome/static/media/Author.c19f42dd12f64f6d876d.jpg",
+    "index.html": "/KamsEHome/index.html",
+    "main.133f79db.css.map": "/KamsEHome/static/css/main.133f79db.css.map",
+    "main.c8d38be1.js.map": "/KamsEHome/static/js/main.c8d38be1.js.map",
+    "453.96cba20d.chunk.js.map": "/KamsEHome/static/js/453.96cba20d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.133f79db.css",
+    "static/js/main.c8d38be1.js"
+  ]
+}
