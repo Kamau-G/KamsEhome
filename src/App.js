@@ -25,7 +25,7 @@ function App() {
     <div className="App vHome">
       <Layout/>
     <Routes>
-      <Route path='/' element={<Layout/>} />
+      <Route path='' element={<Layout/>} />
       <Route index element={<HomeView homeObj={homeObj} setNav={setNavObj} />}/>
       <Route path='/dev' element={<DevView/>}/>
       <Route path='/dog' element={<DogView/>}/>

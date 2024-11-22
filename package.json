@@ -1,7 +1,7 @@
 {
   "name": "personal_site",
   "version": "0.1.0",
-  "homepage": "https://kamau-g.github.io/KamsEHome",
+  "homepage": "https://kamau-g.github.io/KamsEhome",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
