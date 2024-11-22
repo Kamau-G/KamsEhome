@@ -7,9 +7,7 @@ function DogViewCard3({setNav}){
     }
     return(
         <div className='DogViewCard3 slide-in-bottom' onClick={toggleText}>
-            <div id='textDVC3' hidden>
-                Card 3
-            </div>
+            <div className={'textFields'}>The Pickler</div>
         </div>
     );
 }
