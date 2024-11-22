@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/KamsEhome/static/css/main.7437e071.css",
-    "main.js": "/KamsEhome/static/js/main.d846c433.js",
+    "main.css": "/KamsEhome/static/css/main.fd97ce00.css",
+    "main.js": "/KamsEhome/static/js/main.b297dae8.js",
     "static/js/453.96cba20d.chunk.js": "/KamsEhome/static/js/453.96cba20d.chunk.js",
     "static/media/dogview.jpg": "/KamsEhome/static/media/dogview.045c8f9adf50435f86f8.jpg",
+    "static/media/brdClmb.jpg": "/KamsEhome/static/media/brdClmb.cae887dd948e5749e584.jpg",
+    "static/media/mxTrp.jpg": "/KamsEhome/static/media/mxTrp.a3deefdf4b7de97f65a7.jpg",
     "static/media/Author.jpg": "/KamsEhome/static/media/Author.c19f42dd12f64f6d876d.jpg",
+    "static/media/pklMatch.jpg": "/KamsEhome/static/media/pklMatch.f24e18aa5e8882f075ad.jpg",
     "index.html": "/KamsEhome/index.html",
-    "main.7437e071.css.map": "/KamsEhome/static/css/main.7437e071.css.map",
-    "main.d846c433.js.map": "/KamsEhome/static/js/main.d846c433.js.map",
+    "main.fd97ce00.css.map": "/KamsEhome/static/css/main.fd97ce00.css.map",
+    "main.b297dae8.js.map": "/KamsEhome/static/js/main.b297dae8.js.map",
     "453.96cba20d.chunk.js.map": "/KamsEhome/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7437e071.css",
-    "static/js/main.d846c433.js"
+    "static/css/main.fd97ce00.css",
+    "static/js/main.b297dae8.js"
   ]
 }
