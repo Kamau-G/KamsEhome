@@ -1,9 +1,9 @@
 
 import { NavLink } from 'react-router-dom';
 
-function HomeBtn(){
+function HomeBtn(prop){
 
-    return <NavLink className='HomeBtn watermark' to='/'>
+    return <NavLink className={`${prop.className}`} to='/'>
         Home
     </NavLink>;
 }

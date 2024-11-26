@@ -6,8 +6,12 @@ function DevViewCard4({setNav}){
         (document.getElementById(event.target.id).hidden) ? false:true;
     }
     return(
-        <div id='dvCard4' className='DevViewCard4' onClick={function(){}}>
+        <div id='dvCard4' className='DevViewCard4' onClick={function () {
+        }}>
+            <h2>Other Projects</h2>
+            
         </div>
     );
 }
+
 export default DevViewCard4;

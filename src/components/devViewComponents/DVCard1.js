@@ -18,9 +18,14 @@ function DevViewCard1({handleOnMouseEnter, handleOnMouseLeave}){
     //     document.getElementById('DevViewCard1').style.minWidth = '25vw';
     // }
     return(
-        <div className='DevViewCard1 ' onClick={function(){}} onMouseEnter={function(){}} onMouseLeave={function(){}}>
+        <div className='DevViewCard1 ' onClick={function () {
+        }} onMouseEnter={function () {
+        }} onMouseLeave={function () {
+        }}>
+            <h2>Dog Catcher Card Game</h2>
         </div>
-            
+
     );
 }
+
 export default DevViewCard1;

@@ -8,7 +8,7 @@ import DogViewTxtField from "../components/DogViewTxtField";
 function DogView(){
 
     return<div className="DogView">
-        <HomeBtn/>
+        <HomeBtn className='HomeBtnDog'/>
         <DogViewTxtField/>
         <DogViewCard0/>
         <DogViewCard1/>

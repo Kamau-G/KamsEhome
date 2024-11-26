@@ -22,7 +22,7 @@ function App() {
     console.log('App Loaded');
   },[]);
   return (
-    <div className="App vHome">
+    <div className="App">
       <Layout/>
     <Routes>
       <Route path='' element={<Layout/>} />

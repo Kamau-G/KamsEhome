@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif ;
 }
@@ -102,18 +105,12 @@ body{
 .DevView{
   display: flex;
   flex-direction: row-reverse;
-  /* min-height: 99vh; */
+  background-image: url('./assets/fern.jpg');
 }
 .DogView{
   display: flex;
   flex-direction: row;
-  /* min-height: 99vh;
-  max-height: 99vh; */
-}
-.vHome{
-  display: flex;
-  flex-direction: row;
-  min-height: 99vh;
+  background-image: url('./assets/fern.jpg');
 }
 .DogViewCard1{
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
@@ -203,44 +200,44 @@ body{
   background-color: #faf6f094;
   box-shadow: 1vh 1vh 1vh 1vh #000000;
   min-width: 34vw;
-  /* min-height: 99vh; */
+  min-height: 100vh;
 
 }
 .DevViewCard1{
   z-index: 0;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #6b7b70;
-  /* background-image: url('./assets/projectCasino.png'); */
+  text-align: left;
+  padding: .2em;
   background-size: cover;
-  /* background-position: center center; */
-  /* flex-basis: 50vw; */
+  background-position: center center;
+  display: flex;
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
-  border-radius: 0vh 0vh 5vh 5vh;
+  border-radius: 2vh;
   box-shadow: 2px 2.5px 5px 1px #000000;
-  width: 22vw; 
-  /* max-width: 25vw; */
-  max-height: 50vh;
-
+  max-height: 10vh;
+  background-color: #6b7b70;
+}
+.DevViewCard1:hover{
+  background-color: rgb(74,100,78);
 }
 .DevViewCard2{
   z-index: 1;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #a4b29f;
-  /* background-image: url('./assets/dog.png'); */
+  text-align: left;
+  padding: .2em;
   background-size: cover;
-  background-position: center;
-  /* flex-basis: 22vw; */
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-position: center center;
+  display: flex;
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
-  border-radius: 0vh 0vh 5vh 5vh;
+  border-radius: 2vh;
   box-shadow: 2px 2.5px 5px 1px #000000;
-  width: 22vw; 
-  max-height: 50vh;
-
+  max-height: 15vh;
+  background-color: #a4b29f;
+}
+.DevViewCard2:hover{
+  background-color: rgb(74,100,78);
 }
 .DevViewCard3{
   text-align: left;
@@ -251,36 +248,38 @@ body{
   background-size: cover;
   background-position: center center;
   display: flex;
-  /* flex-basis: 100%; */
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
   border-radius: 2vh;
   box-shadow: 2px 2.5px 5px 1px #000000;
   min-width: 22vw; 
-  /* max-width: 60vw; */
-  min-height: 49vh;
+  min-height: 50vh;
 }
 .DevViewCard4{
   z-index: 3;
   text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.2);
-  background-color: #e4dec9;
+  text-align: left;
+  padding: .2em;
   background-size: cover;
-  background-position: center;
-  /* flex-basis: 33%; */
+  background-position: center center;
+  display: flex;
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
-  border-radius: 0vh 0vh 5vh 5vh;
+  border-radius: 2vh;
   box-shadow: 2px 2.5px 5px 1px #000000;
-  width: 22vw; 
-  min-height: 50vh;
+  max-height: 15vh;
+  background-color: #e4dec9;
 
+}
+.DevViewCard4:hover{
+  background-color: rgb(74,100,78);
 }
 .HomeBtn{
   text-align: center;
   z-index: 99;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
@@ -291,19 +290,20 @@ body{
   min-width: 8vw;
   min-height: 5vh;
 }
+
 .HomeBtnDog{
   text-align: center;
   z-index: 99;
   position: fixed;
   top: 0;
-  right: 100vw;
-  
+  left: 0;
   font-size: calc(1px + 2vmin);
   color: rgb(26, 25, 25);
+  border: 1vh ridge #3737388a;
   border-radius: 1vh 1vh 1vh 1vh ;
-  background-color: #faf6f094;
+  background-color: #faf6f0e8;
   box-shadow: 2px 2.5px 5px 1px #000000;
-  min-width: 4vw;
+  min-width: 8vw;
   min-height: 5vh;
 }
   .HomeBtn:hover{
